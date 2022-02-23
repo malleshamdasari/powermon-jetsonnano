@@ -1,0 +1,100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	c/Makefile	/^CC=gcc$/;"	m
+CXXFLAGS	c/Makefile	/^CXXFLAGS=-Wall -O3$/;"	m
+I2C_BUS	c/jetson_tx2_power.h	5;"	d
+I2C_FULL_PATH0	c/jetson_tx2_power.h	6;"	d
+I2C_FULL_PATH1	c/jetson_tx2_power.h	7;"	d
+I2C_FULL_PATH2	c/jetson_tx2_power.h	8;"	d
+I2C_FULL_PATH3	c/jetson_tx2_power.h	9;"	d
+OBJS	c/Makefile	/^OBJS=jetson_tx2_power.o jetson_tx2_power_main.o$/;"	m
+PowerReadingCurrent	jetsonTX2Power.py	/^class PowerReadingCurrent(PowerReadingValue):$/;"	c
+PowerReadingCurrent	jetson_tx2_power.cpp	/^PowerReadingCurrent::PowerReadingCurrent(std::string path, int number) :$/;"	f	class:PowerReadingCurrent
+PowerReadingCurrent	jetson_tx2_power.hh	/^class PowerReadingCurrent: public PowerReadingValue$/;"	c
+PowerReadingDevice	jetsonTX2Power.py	/^class PowerReadingDevice(object):$/;"	c
+PowerReadingDevice	jetson_tx2_power.cpp	/^PowerReadingDevice::PowerReadingDevice(std::string path)$/;"	f	class:PowerReadingDevice
+PowerReadingDevice	jetson_tx2_power.hh	/^class PowerReadingDevice$/;"	c
+PowerReadingRail	jetsonTX2Power.py	/^class PowerReadingRail(object):$/;"	c
+PowerReadingRail	jetson_tx2_power.cpp	/^PowerReadingRail::PowerReadingRail(std::string path, int num) :$/;"	f	class:PowerReadingRail
+PowerReadingRail	jetson_tx2_power.hh	/^class PowerReadingRail$/;"	c
+PowerReadingValue	jetsonTX2Power.py	/^class PowerReadingValue(object):$/;"	c
+PowerReadingValue	jetson_tx2_power.cpp	/^PowerReadingValue::PowerReadingValue(std::string name)$/;"	f	class:PowerReadingValue
+PowerReadingValue	jetson_tx2_power.hh	/^class PowerReadingValue$/;"	c
+PowerReadingVoltage	jetsonTX2Power.py	/^class PowerReadingVoltage(PowerReadingValue):$/;"	c
+PowerReadingVoltage	jetson_tx2_power.cpp	/^PowerReadingVoltage::PowerReadingVoltage(std::string path, int number) :$/;"	f	class:PowerReadingVoltage
+PowerReadingVoltage	jetson_tx2_power.hh	/^class PowerReadingVoltage: public PowerReadingValue$/;"	c
+RM	c/Makefile	/^RM=rm -f$/;"	m
+_JETSON_TX2_POWER_HH_	jetson_tx2_power.hh	4;"	d
+_JETSON_TX2_PWR_H_	c/jetson_tx2_power.h	3;"	d
+__init__	jetsonTX2Power.py	/^	def __init__(self, name, path):$/;"	m	class:PowerReadingValue
+__init__	jetsonTX2Power.py	/^	def __init__(self, path):$/;"	m	class:PowerReadingDevice
+__init__	jetsonTX2Power.py	/^	def __init__(self, path, num):$/;"	m	class:PowerReadingRail
+__init__	jetsonTX2Power.py	/^	def __init__(self, path, number):$/;"	m	class:PowerReadingVoltage
+__init__	jetsonTX2Power.py	/^    def __init__(self, path, number):$/;"	m	class:PowerReadingCurrent
+__str__	jetsonTX2Power.py	/^	def __str__(self):$/;"	m	class:PowerReadingDevice	file:
+__str__	jetsonTX2Power.py	/^	def __str__(self):$/;"	m	class:PowerReadingRail	file:
+__str__	jetsonTX2Power.py	/^	def __str__(self):$/;"	m	class:PowerReadingValue	file:
+create_devices	c/jetson_tx2_power.c	/^int create_devices(void)$/;"	f
+create_devices	jetsonTX2Power.py	/^def create_devices():$/;"	f
+create_devices	jetson_tx2_power.cpp	/^std::vector<PowerReadingDevice> create_devices(void)$/;"	f
+current	c/jetson_tx2_power.h	/^	struct rail_power_reading_t current;$/;"	m	struct:rail_power_t	typeref:struct:rail_power_t::rail_power_reading_t
+current	jetson_tx2_power.hh	/^	PowerReadingCurrent current;$/;"	m	class:PowerReadingRail
+destroy_devices	c/jetson_tx2_power.c	/^int destroy_devices(void)$/;"	f
+dev	c/jetson_tx2_power.h	/^	char dev[256];$/;"	m	struct:rail_power_reading_t
+fd	c/jetson_tx2_power.h	/^	int fd;$/;"	m	struct:rail_power_reading_t
+get_csv_header	jetsonTX2Power.py	/^	def get_csv_header(self):$/;"	m	class:PowerReadingDevice
+get_csv_header	jetsonTX2Power.py	/^	def get_csv_header(self):$/;"	m	class:PowerReadingRail
+get_csv_header	jetson_tx2_power.cpp	/^std::string PowerReadingDevice::get_csv_header(void)$/;"	f	class:PowerReadingDevice
+get_csv_header	jetson_tx2_power.cpp	/^std::string PowerReadingRail::get_csv_header(void)$/;"	f	class:PowerReadingRail
+get_name	jetsonTX2Power.py	/^	def get_name(self):$/;"	m	class:PowerReadingRail
+get_name	jetsonTX2Power.py	/^	def get_name(self):$/;"	m	class:PowerReadingValue
+get_name	jetson_tx2_power.cpp	/^std::string PowerReadingRail::get_name(void)$/;"	f	class:PowerReadingRail
+get_name	jetson_tx2_power.cpp	/^std::string PowerReadingValue::get_name(void)$/;"	f	class:PowerReadingValue
+get_value	jetsonTX2Power.py	/^	def get_value(self):$/;"	m	class:PowerReadingValue
+get_value	jetson_tx2_power.cpp	/^std::string PowerReadingValue::get_value(void)$/;"	f	class:PowerReadingValue
+handle_sigint	c/jetson_tx2_power_main.c	/^void handle_sigint(int signal)$/;"	f
+handle_sigint	jetson_tx2_power_main.cpp	/^void handle_sigint(int signal)$/;"	f
+main	c/jetson_tx2_power_main.c	/^int main(int argc, char *argv[])$/;"	f
+main	jetsonTX2Power.py	/^def main():$/;"	f
+main	jetson_tx2_power_main.cpp	/^int main(int argc, char *argv[])$/;"	f
+name	c/jetson_tx2_power.h	/^	char name[64];$/;"	m	struct:rail_power_t
+name	jetson_tx2_power.hh	/^	std::string name;$/;"	m	class:PowerReadingRail
+name	jetson_tx2_power.hh	/^    std::string name;$/;"	m	class:PowerReadingValue
+number	jetson_tx2_power.hh	/^    int number;$/;"	m	class:PowerReadingValue
+operator <<	jetson_tx2_power.cpp	/^std::ostream& operator<<(std::ostream& stream, const PowerReadingDevice& d)$/;"	f
+operator <<	jetson_tx2_power.cpp	/^std::ostream& operator<<(std::ostream& stream, const PowerReadingRail& r)$/;"	f
+operator <<	jetson_tx2_power.cpp	/^std::ostream& operator<<(std::ostream& stream, const PowerReadingValue& value)$/;"	f
+path	jetson_tx2_power.hh	/^    std::string path;$/;"	m	class:PowerReadingValue
+print_power	jetsonTX2Power.py	/^def print_power(devices):$/;"	f
+print_values	c/jetson_tx2_power.c	/^int print_values(void)$/;"	f
+print_values	jetson_tx2_power.cpp	/^int print_values(std::vector<PowerReadingDevice> &devices)$/;"	f
+rail_power	c/jetson_tx2_power.c	/^struct rail_power_t rail_power[] = {$/;"	v	typeref:struct:rail_power_t
+rail_power_reading_t	c/jetson_tx2_power.h	/^struct rail_power_reading_t {$/;"	s
+rail_power_t	c/jetson_tx2_power.h	/^struct rail_power_t {$/;"	s
+rails	jetson_tx2_power.hh	/^	std::vector<PowerReadingRail> rails;$/;"	m	class:PowerReadingDevice
+running	c/jetson_tx2_power_main.c	/^static int running;$/;"	v	file:
+running	jetson_tx2_power_main.cpp	/^static int running;$/;"	v	file:
+to_csv	c/jetson_tx2_power.c	/^int to_csv(char *csv_filename)$/;"	f
+to_csv	jetsonTX2Power.py	/^	def to_csv(self):$/;"	m	class:PowerReadingDevice
+to_csv	jetsonTX2Power.py	/^	def to_csv(self):$/;"	m	class:PowerReadingRail
+to_csv	jetsonTX2Power.py	/^def to_csv(csv_file, devices, comment='', xtra_fields=None):$/;"	f
+to_csv	jetson_tx2_power.cpp	/^std::string PowerReadingDevice::to_csv(void)$/;"	f	class:PowerReadingDevice
+to_csv	jetson_tx2_power.cpp	/^std::string PowerReadingRail::to_csv(void)$/;"	f	class:PowerReadingRail
+to_csv	jetson_tx2_power.cpp	/^void to_csv(std::string csv_file, std::vector<PowerReadingDevice> &devices)$/;"	f
+to_csv	jetson_tx2_power.cpp	/^void to_csv(std::string csv_file, std::vector<PowerReadingDevice> &devices,$/;"	f
+update	jetsonTX2Power.py	/^	def update(self):$/;"	m	class:PowerReadingDevice
+update	jetsonTX2Power.py	/^	def update(self):$/;"	m	class:PowerReadingRail
+update	jetsonTX2Power.py	/^	def update(self):$/;"	m	class:PowerReadingValue
+update	jetson_tx2_power.cpp	/^void PowerReadingDevice::update(void)$/;"	f	class:PowerReadingDevice
+update	jetson_tx2_power.cpp	/^void PowerReadingRail::update(void)$/;"	f	class:PowerReadingRail
+update	jetson_tx2_power.cpp	/^void PowerReadingValue::update(void)$/;"	f	class:PowerReadingValue
+update_power_values	c/jetson_tx2_power.c	/^int update_power_values(void)$/;"	f
+update_power_values	jetson_tx2_power.cpp	/^int update_power_values(std::vector<PowerReadingDevice> &devices)$/;"	f
+value	c/jetson_tx2_power.h	/^	float value;$/;"	m	struct:rail_power_reading_t
+value	jetson_tx2_power.hh	/^    std::string value;$/;"	m	class:PowerReadingValue
+voltage	c/jetson_tx2_power.h	/^	struct rail_power_reading_t voltage;$/;"	m	struct:rail_power_t	typeref:struct:rail_power_t::rail_power_reading_t
+voltage	jetson_tx2_power.hh	/^	PowerReadingVoltage voltage;$/;"	m	class:PowerReadingRail
