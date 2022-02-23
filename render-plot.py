@@ -7,7 +7,7 @@ matplotlib.rcParams.update({'font.size': 50})
 fig, ax = plt.subplots()
 fig.subplots_adjust(left=0.15, bottom=0.2, right=0.9, top=0.9)
 
-lines = open('dec.txt', 'r')
+lines = open('render.txt', 'r')
 
 v = []
 c = []
@@ -27,6 +27,6 @@ ax.plot(p)
 ax.set_ylabel('Power Consumption (mW)')
 ax.set_xlabel('Timeline')
 
-plt.savefig('figures/energy-decoding.png')
+plt.savefig('figures/energy-rendering.png')
 
 plt.show()

@@ -27,6 +27,6 @@ ax.plot(p)
 ax.set_ylabel('Power Consumption (mW)')
 ax.set_xlabel('Timeline')
 
-#plt.savefig('figures/cratio.png')
+plt.savefig('figures/energy-encoding.png')
 
 plt.show()
